@@ -43,7 +43,6 @@
     "./resource/Dr1.jpg",
     "./resource/Dr2.jpg",
     "./resource/Dr4.jpg",
-    "../resource/Dr7.jpg",
   ];
 
   let currentIndex = 0;
