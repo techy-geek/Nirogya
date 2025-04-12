@@ -138,14 +138,24 @@
     .card:hover {
       transform: translateY(-5px);
     }
+    #cta-btn1{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    #regdr{ text-decoration: none;
+      color: #000000;
+      
+    }
+    #findr{
+      text-decoration: none;
+      color: #000000;
 
+    }
     .card img {
       width: 60px;
       height: 60px;
       margin-bottom: 10px;
     }
-
-    /* New Feature Section */
     .trust-features {
       background-color: #fff;
       padding: 3rem 2rem;
@@ -213,11 +223,12 @@
       <h1>Online doctor access for rural India</h1>
       <p>Connecting patients in remote regions to qualified doctors — right where you are.</p>
       <div class="features">
-        <div>🕒 Talk within 30 min</div>
-        <div>💬 3-day follow up</div>
-        <div>📄 Get valid prescription</div>
+        <div>🕒 Saves your time </div>
+        <div>💬 Dr at your fingertips </div>
+        <div>📄 Get your prescription Online</div>
       </div>
       <button class="cta-btn">Consult Now</button>
+      <button class="cta-btn" ><a id="cta-btn1" href="../Safar-e-Sehat/Safaresehat.html">Book Safar-e-Sehat (Rural Ambulance)</a></button>
     </div>
     <div class="hero-image">
         <img id="slideshow-img" src="./resource/Dr1.jpg" alt="Doctor Slideshow" />
@@ -231,11 +242,12 @@
   <div id="cards-container">
     <div class="card">
       <img src="./resource/doctor_logo.png" alt="Doctor Icon">
-      <div>🩺 Register as Doctor</div>
+      <div><a id="regdr" href="./Dr Form/DrForm.html">Register as Doctor</a> </div>
     </div>
     <div class="card">
       <img src="./resource/user_icon.png" alt="User Icon">
-      <div>🙋 Find a Doctor</div>
+      
+      <div><a id="findr" href="../FindADr/finnadoc.html">🙋 Find a Doctor</a></div>
     </div>
   </div>
 
@@ -266,14 +278,14 @@
       <p>Experienced and certified professionals at your service across India.</p>
     </div>
     <div class="trust-item">
-      <img src="https://img.icons8.com/color/96/000000/mobile-clinic.png" alt="Convenient"/>
-      <h3>Convenience</h3>
+      <img src="../resource/icn.png" alt="Convenient"/>
+      <h3>Saves Money and Free consultations</h3>
       <p>Consult anytime, anywhere. No queues, no waiting rooms, just care.</p>
     </div>
     <div class="trust-item">
       <img src="https://img.icons8.com/color/96/000000/wallet.png" alt="Cost Effective"/>
-      <h3>Cost Effective</h3>
-      <p>Free for non-urgent care. Just ₹50 for priority responses.</p>
+      <h3>Ayushmaan Card</h3>
+      <p>Medicine and free consultations for Ayushmaan Card holders.</p>
     </div>
   </section>
 
@@ -337,7 +349,7 @@
       "./resource/Dr1.jpg",
       "./resource/Dr2.jpg",
       "./resource/Dr4.jpg",
-      "./resource/Dr5.jpg" // Add more if you want
+       // Add more if you want
     ];
   
     let currentIndex = 0;
