@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: #ffffff;
-  padding: 1rem 2rem;
+  padding: 1rem ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +20,20 @@ header {
 }
 .logo img {
   height: 40px;
+}
+
+.video-container{
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    width:100%;
+    background:transparent;
+    border-radius:10px;
+    overflow:hidden;
+    position:relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* adds space between videos */
 }
 
 .hero {
@@ -202,3 +216,53 @@ header {
   }
   
   
+  
+    .consult-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .consult-box {
+      width: 180px;
+      padding: 15px;
+      border-radius: 12px;
+      background: #fffaf5;
+      box-shadow: 0 4px 10px rgba(255, 94, 0, 0.15);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .consult-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(255, 94, 0, 0.25);
+    }
+
+    .consult-box img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: #ffe3d1;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .consult-title {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #ff5e00;
+    }
+
+    .consult-link {
+      display: inline-block;
+      margin-top: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+      background: #ff5e00;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
