@@ -6,6 +6,8 @@
   <title>NirogKaaya | Smart Sanjeevani  — Wellness for all
   </title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="Chatbot/chatbot.css">
+
 </head>
 <body>
     <header>
@@ -91,5 +93,22 @@
   </section>
   
   <script src="./script.js"></script>
+
+  <div id="chatbot-container">
+    <div id="chatbot-header">
+      <h3>AI Symptom Checker</h3>
+      <button id="close-chatbot">-</button>
+    </div>
+    <div id="chatbot-messages"></div>
+    <div id="chatbot-input">
+      <input type="text" id="user-input" placeholder="Type your message...">
+      <button id="send-message">Send</button>
+    </div>
+  </div>
+  <button id="open-chatbot">
+    <img src="./resource/doctor_logo.png" alt="Chatbot">
+  </button>
+
+  <script src="Chatbot/chatbot.js"></script>
 </body>
 </html>
