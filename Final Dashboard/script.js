@@ -29,7 +29,7 @@ doctors.forEach(doc => {
 });
 
 function openForm(doctor) {
-  document.getElementById('formTitle').innerText = `Book Appointment with ${doctor}`;
+  document.getElementById('formTitle').innerText = `Call ${doctor}`;
   document.getElementById('consultForm').style.display = 'flex';
 }
 
