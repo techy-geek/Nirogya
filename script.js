@@ -26,7 +26,7 @@
           .then(response => response.json())
           .then(data => {
             const address = data.display_name;
-            output.innerHTML = `📍 Your Location:<br><strong>${address}</strong><br><br>Please register below to continue.`;
+            output.innerHTML = `Location:<br>${address}<br><br>`;
             cards.style.display = "flex";
           })
           .catch(() => {
