@@ -20,8 +20,8 @@ doctors.forEach(doc => {
       <h3>${doc.name}</h3>
       <p>${doc.specialty}</p>
       <div class="consult-btns">
-        <button onclick="openForm('${doc.name}')">Online</button>
-        <button onclick="openForm('${doc.name}')">Offline</button>
+        <button onclick="openForm('${doc.name}')">Video Call</button>
+        <button onclick="openForm('${doc.name}')">Audio Call</button>
       </div>
     </div>
   `;
