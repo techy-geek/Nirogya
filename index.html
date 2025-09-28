@@ -23,11 +23,11 @@
 
   <section class="hero">
     <div class="hero-content">
-      <h1>Doctors for Rural India <br> ग्रामीण भारत के लिए डॉक्टर <br> ਗ੍ਰਾਮੀਣ ਭਾਰਤ ਲਈ ਡਾਕਟਰ</h1>
+      <h1 id="main-head">Doctors for Rural India</h1>
       <div class="features">
-        <div>Saves your time </div>
-        <div> Get your medicine from your local pharmacy</div>
-        <div>Get your prescription online and offline</div>
+        <div id="feature-1">Saves your time </div>
+        <div id="feature-2"> Get your medicine from your local pharmacy</div>
+        <div id="feature-3">Get your prescription online and offline</div>
       </div>
       <button class="cta-btn"><a id="contact" href="./Final Dashboard/FinalDashboard.html" >Contact Us</a></button>
       <button class="cta-btn" ><a id="cta-btn1" href="./Safar-e-Sehat/Safaresehat.html">Call Ambulance</a></button>
@@ -54,34 +54,33 @@
 
     
 <!-- FEATURE-->
-<h4 style="text-align:center;color:#ff5e00;">Consult ASHA Worker</h4>
   <div class="consult-section">
     <div class="consult-box">
       <img src="https://img.icons8.com/color/96/female.png" alt="Period">
-      <div class="consult-title">Period doubts or Pregnancy</div>
-      <a href="#" class="consult-link">Contact ASHA</a>
+      <div class="consult-title" id="consult-1-title">Period doubts or Pregnancy</div>
+      <a href="#" class="consult-link" id="consult-1-link">Contact ASHA</a>
     </div>
     <div class="consult-box">
       <img src="https://img.icons8.com/color/96/sneeze.png" alt="Cold">
-      <div class="consult-title">Cold, cough or fever</div>
-      <a href="#" class="consult-link">Contact ASHA</a>
+      <div class="consult-title" id="consult-2-title">Cold, cough or fever</div>
+      <a href="#" class="consult-link" id="consult-2-link">Contact ASHA</a>
     </div>
     <div class="consult-box">
       <img src="https://img.icons8.com/color/96/baby.png" alt="Child">
-      <div class="consult-title">Child not feeling well</div>
-      <a href="#" class="consult-link">Contact ASHA</a>
+      <div class="consult-title" id="consult-3-title">Child not feeling well</div>
+      <a href="#" class="consult-link"  id="consult-3-link">Contact ASHA</a>
     </div>
     <div class="consult-box">
       <img src="https://img.icons8.com/color/96/mental-health.png" alt="Mental Health">
-      <div class="consult-title">Depression or anxiety</div>
-      <a href="#" class="consult-link">Contact ASHA</a>
+      <div class="consult-title" id="consult-4-title">Depression or anxiety</div>
+      <a href="#" class="consult-link"  id="consult-4-link">Contact ASHA</a>
     </div>
   </div>
 
 <!-- // youtube -->
 
 <!-- <img src="https://img.icons8.com/ios-filled/50/ff6b6b/youtube-play.png" alt="logo" style="width:34px;height:34px"> -->
-    <h4 style="text-align:center;color:#ff5e00;">  Doctor's Advice / डॉक्टर की सलाह </h4>
+    <h4 style="text-align:center;color:#ff5e00;" id="doctors-advice-title">  Doctor's Advice</h4>
   </div>
     <div class="video-container" style="width: auto;">
     <iframe src="https://www.youtube.com/embed/9nEPL-GZyCw" allowfullscreen></iframe>
@@ -97,38 +96,38 @@
   <div class="stats">
     <div class="stat-box">
       <h2>173+</h2>
-      <p>Villages Covering</p>
+      <p id= "stats-1-text">Villages Covering</p>
     </div>
     <div class="stat-box">
       <h2>500+</h2>
-      <p> Consultations</p>
+      <p id= "stats-2-text"> Consultations</p>
     </div>
     <div class="stat-box">
       <h2>10+</h2>
-      <p>Specialist Doctor Team </p>
+      <p id= "stats-3-text">Specialist Doctor Team </p>
     </div>
   </div>
 
   <section class="trust-features">
     <div class="trust-item">
       <img src="https://img.icons8.com/color/96/000000/privacy.png" alt="Confidential"/>
-      <h3>100% Confidential</h3>
-      <p>All consultations are private and secure. You can delete chats anytime.</p>
+      <h3 id="trust-1-heading">100% Confidential</h3>
+      <p id="trust-1-text">All consultations are private and secure. You can delete chats anytime.</p>
     </div>
     <div class="trust-item">
       <img src="https://img.icons8.com/color/96/000000/medal.png" alt="Certified"/>
-      <h3>Certified Doctors</h3>
-      <p>Experienced and certified professionals at your service across India.</p>
+      <h3 id="trust-2-heading">Certified Doctors</h3>
+      <p id="trust-2-text">Experienced and certified professionals at your service across India.</p>
     </div>
     <div class="trust-item">
       <img src="./resource/icn.png" alt="Convenient"/>
-      <h3>Saves Money and Free consultations</h3>
-      <p>Consult anytime, anywhere. No queues, no waiting rooms, just care.</p>
+      <h3 id="trust-3-heading">Saves Money and Free consultations</h3>
+      <p id="trust-3-text">Consult anytime, anywhere. No queues, no waiting rooms, just care.</p>
     </div>
     <div class="trust-item">
       <img src="https://img.icons8.com/color/96/000000/wallet.png" alt="Cost Effective"/>
-      <h3>Ayushmaan Card</h3>
-      <p>Medicine and free consultations for Ayushmaan Card holders.</p>
+      <h3 id="trust-4-heading">Ayushmaan Card</h3>
+      <p id="trust-4-text">Medicine and free consultations for Ayushmaan Card holders.</p>
     </div>
   </section>
   
@@ -150,5 +149,6 @@
   </button>
 
   <script src="Chatbot/chatbot.js"></script>
+  <script src="translate.js"></script>
 </body>
 </html>
